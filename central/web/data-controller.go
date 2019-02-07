@@ -69,7 +69,7 @@ func NewDataController(dataDao dao.DataDao) *DataController {
 	return &controller
 }
 
-// GetAllData method
+// DeleteAll method
 func (ctrl *DataController) DeleteAll(w http.ResponseWriter, r *http.Request) {
 	log.Info("Server.DeleteAll()")
 	ctrl.dataDao.DeleteAll()

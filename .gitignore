@@ -1,6 +1,8 @@
 github.com/
 golang.org/
 gopkg.on/
+project/.vscode
+central/.vscode
 
 # Binaries for programs and plugins
 *.exe
